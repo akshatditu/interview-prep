@@ -1,5 +1,5 @@
 function largestSum(arr) {
-  let maxSum = 0;
+  let maxSum = -Infinity;
   let temp = 0;
   for (let i = 0; i < arr.length; i++) {
     temp += arr[i];
